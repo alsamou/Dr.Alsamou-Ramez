@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Ramez Al-Samou - Facharzt für öffentliche Gesundheit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+        }
+
+        .header {
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1');
+            background-size: cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            background: white;
+            padding: 40px;
+            margin: 40px 0;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #27ae60;
+            padding-bottom: 10px;
+        }
+
+        .contact-info {
+            background: #27ae60;
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            display: block;
+            margin: 10px 0;
+        }
+
+        .experience-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .service-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #27ae60;
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 60px;
+        }
+
+        .achievements {
+            list-style-type: none;
+            padding: 20px;
+        }
+
+        .achievements li {
+            padding: 15px;
+            margin: 10px 0;
+            background: #ecf0f1;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Dr. Ramez Al-Samou</h1>
+        <p>Facharzt für öffentliche Gesundheit mit 5+ Jahren Erfahrung</p>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Fachkompetenz</h2>
+            <p>Als promovierter Experte für öffentliche Gesundheit mit mehr als fünf Jahren Berufserfahrung spezialisiere ich mich auf:</p>
+            <ul class="achievements">
+                <li>Epidemiologische Studien und Krankheitsprävention</li>
+                <li>Gesundheitssystemmanagement und Politikberatung</li>
+                <li>Gesundheitsförderungsprogramme</li>
+                <li>Infektionsschutz und Hygieneüberwachung</li>
+                <li>Gesundheitsökonomische Analysen</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Beruflicher Werdegang</h2>
+            <div class="experience-grid">
+                <div class="service-card">
+                    <h3>Akademische Laufbahn</h3>
+                    <p>Promotion im Bereich Public Health mit Fokus auf Bevölkerungsgesundheit</p>
+                </div>
+                <div class="service-card">
+                    <h3>Praktische Erfahrung</h3>
+                    <p>Projektleitung bei nationalen Gesundheitsinitiativen</p>
+                </div>
+                <div class="service-card">
+                    <h3>Forschung</h3>
+                    <p>Wissenschaftliche Publikationen in Fachzeitschriften</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <h2>Kontaktmöglichkeiten</h2>
+            <a href="tel:0789620550">Tel: 0789620550</a>
+            <a href="mailto:ramezlasamou@gmail.com">ramezlasamou@gmail.com</a>
+        </div>
+
+        <div class="section">
+            <h2>Anfrageformular</h2>
+            <form>
+                <input type="text" placeholder="Vollständiger Name" required>
+                <input type="email" placeholder="E-Mail-Adresse" required>
+                <input type="tel" placeholder="Telefonnummer">
+                <textarea placeholder="Ihr Anliegen" rows="5" required></textarea>
+                <button type="submit">Anfrage senden</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Dr. Ramez Al-Samou - Facharzt für öffentliche Gesundheit</p>
+    </footer>
+</body>
+</html>
